@@ -1,0 +1,41 @@
+DSA -  is a way to optimize (dsa is computer science subject, not a tool)
+
+OOPs is a style of programming
+
+which language is best for backend development?
+= it depends on the project requirements and the team's expertise. Some popular backend languages include Python, Java, Ruby, and Node.js.
+= it depends on the type of application you are building. 
+For example, Python is a good choice for data analysis and machine learning applications,
+while Java is commonly used for enterprise applications. 
+Ruby is known for its simplicity and ease of use, 
+while Node.js is popular for building real-time web applications.
+
+- JS has everything 
+if you want to build an application 
+- in less amount of time
+- with less setup
+- with less infrastructure cost.
+Then use JavaScript.
+
+If you build highly scalable application then use Java for backend.
+If you build a data analysis, AI/ML application then use Python for backend
+Go for Ruby if you want to build a simple application with less complexity.
+If you want to build a real-time web application then use Node.js for backend.
+Go lang is best for building highly concurrent applications.
+
+Which language is best for frontend development?
+= JavaScript is the best language for frontend development.
+= JavaScript is the only language that runs in the browser and can be used to create interactive web pages and web applications.
+= JavaScript has a rich ecosystem of libraries and frameworks like React, Angular, and Vue.js that make frontend development easier and more efficient.
+= JavaScript is also widely supported by browsers and has a large community of developers who contribute to its growth and improvement.
+
+What is the difference between Java and JavaScript?
+= Java is a statically typed language that runs on the Java Virtual Machine (JVM) and is used for building enterprise applications, web services, and Android apps.
+= JavaScript is a dynamically typed language that runs in the browser and is used for creating interactive web pages and web applications.
+= Java is a general-purpose language that is used for a wide range of applications, while JavaScript is specifically designed for web development.
+
+till now, tensorflow is the best library for AI/ML, but not yet for JavaScript.
+
+tensorflow.js is a library for training and deploying machine learning models in the browser and on Node.js.
+- It is built on top of TensorFlow, an open-source machine learning library developed by Google.
+- TensorFlow.js allows developers to build and train models using JavaScript and deploy them in the browser or on the server.
