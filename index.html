@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,16 +20,34 @@
       padding: 10px;
       border: 1px solid #ccc;
       border-top: none;
-      display: none; 
+      display: none;
+    }
+
+    .firstHeading{
+      display: flex;
+      justify-content: center;
+    }
+    .firstInfo{
+      display: flex;
+      justify-content: center;
     }
   </style>
 </head>
+
 <body>
-  <h1>HelloTecky</h1>
-<p>An Open Source Project - Welcomes You To Contribute.</p>
+  <header>
+    <h1 class="firstHeading">HelloTecky</h1>
+    <p class="firstInfo">An Open Source Project - Welcomes You To Contribute.</p>
+  </header>
+  <hr/>
+
+  <section class="heroSection">
+    <h2>"Change is the only constant in Software and Technologies"- Explore Technologies, Learn and Implement It.</h2>
+
+  </section>
   <hr />
-  <h2>"Change is the only constant in Software and Technologies"- Explore Technologies, Learn and Implement It.</h2>
-  <h2>[populate the data in ./data/ folder to the respective text files as url, urlName, urlDescription in single line]</h2>
+
+  <p>[populate the data in ./data/ folder to the respective text files as url, urlName, urlDescription in single line]</p>
   <!-- <h2>initially: MERN Stack Resources Links</h2> -->
   <!-- Placeholder for content -->
   <div id="html-container">
@@ -76,8 +95,9 @@
     <div class="collapsible">onlineCodeEditors</div>
     <div id="onlineCodeEditors" class="content"></div>
   </div> -->
-  
+
 
   <script src="script.js"></script>
 </body>
+
 </html>
