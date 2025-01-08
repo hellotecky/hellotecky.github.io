@@ -1,6 +1,6 @@
  // List of files to fetch
 const files = ['html.txt', 'css.txt', 'javascript.txt','freeAPI.txt', 'reactjs.txt', 'nodejs.txt', 'mongodb.txt', 'expressjs.txt', 
-  'onlineCodeEditors.txt','go.txt', 'codingPlatforms.txt'
+  'onlineCodeEditors.txt','go.txt', 'codingPlatforms.txt','AITools.txt'
 ];
 
 // Base folder where text files are stored
