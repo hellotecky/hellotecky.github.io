@@ -6,82 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HelloTecky</title>
   <style>
-    * {
-      margin: 0px;
-      padding: 0px;
-      box-sizing: border-box;
-    }
 
-    .collapsible {
-      cursor: pointer;
-      padding: 10px;
-      text-align: left;
-      background-color: #f1f1f1;
-      border: 1px solid #ccc;
-      margin-bottom: 5px;
-      /* display: none; */
-    }
-
-    .content {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-top: none;
-      display: none;
-
-      /* a {
-        margin-top: 500px;
-        padding: 10px 0;
-        background-color: yellow;
-      }
-      p {
-        padding: 10px 0;
-        background-color: yellow;
-        border: 2px solid black;
-        border-radius: 0% 0% 15% 15%;
-      } */
-    }
-
-    .firstHeading {
-      display: flex;
-      justify-content: center;
-    }
-    .firstInfo {
-      display: flex;
-      justify-content: center;
-    }
-    nav > ul{
-      display: flex;
-      list-style: none;
-      text-decoration: none;
-      justify-content: center;
-      text-align: center;
-      li {
-        padding: 15px;
-      }
-    }
-    
-
-    .heroSection {
-      background-color: #f0f0f0;
-      color: black;
-    }
   </style>
   <!-- EXT STYLESHEET -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- CDN: BootStrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
-  <header>
-    <h1 class="firstHeading">HelloTecky</h1>
-    <p class="firstInfo">An Open Source Project - Welcomes You To Contribute.</p>
+<body class="container">
+  <header class="main-hearder">
 
-    <nav>
-      <ul>
-        <li><a href="">Technologies</a></li>
-        <li><a href="https://github.com/hellotecky/hellotecky.github.io">GitHub Repository</a></li>
-        <li><a href="">About</a></li>
-      </ul>
+    <nav class="navbar">
+
+      <div class="nav_logo">
+        <h1 class="firstHeading">HelloTecky</h1>
+        
+      </div>
+
+      <div class="nav_items">
+        <ul>
+          <!-- <li><a href="">Technologies</a></li> -->
+          <li><a href="https://github.com/hellotecky/hellotecky.github.io"><img src="./assets/github.png" width="25px" alt=""></a></li>
+          <!-- <li><a href="">About</a></li> -->
+        </ul>
+      </div>
+
     </nav>
+
+    <p class="firstInfo">An Open Source Project - Welcomes You To Contribute.</p>
   </header>
 
   <!-- <section class="heroSection">
@@ -94,7 +48,7 @@
   </p> -->
   <!-- <h2>initially: MERN Stack Resources Links</h2> -->
   <!-- Placeholder for content -->
-
+<div class="technologies">
   <div class="ship" id="webDevelopment">
     <!-- <a href="#html-container">HTML</a> -->
   </div>
@@ -118,10 +72,13 @@
     <div class="collapsible">freeAPI</div>
     <div id="freeAPI" class="content"></div>
   </div>
+
+
   <div id="reactjs-container">
     <div class="collapsible">ReactJS</div>
     <div id="reactjs" class="content"></div>
   </div>
+  <!-- 
   <div id="nodejs-container">
     <div class="collapsible">NodeJS</div>
     <div id="nodejs" class="content"></div>
@@ -141,26 +98,35 @@
   <div id="codingPlatform-container">
     <div class="collapsible">Coding Platforms</div>
     <div id="codingPlatform" class="content"></div>
-  </div>
+  </div> -->
+
+
   <div id="AITools-container">
     <div class="collapsible">AI Tools</div>
     <div id="AITool" class="content"></div>
   </div>
-  <div id="techDocumentation-container">
+
+
+  <!-- <div id="techDocumentation-container">
     <div class="collapsible">Tech Documentation</div>
     <div id="techDocumentation" class="content"></div>
   </div>
   <div id="jobSearch-container">
     <div class="collapsible">Job Search</div>
     <div id="jobSearch" class="content"></div>
-  </div>
+  </div> -->
+
+
   <!-- <div id="onlineCodeEditor-container">
     <div class="collapsible">onlineCodeEditor</div>
     <div id="onlineCodeEditor" class="content"></div>
   </div> -->
 
+</div>
 
-  <script src="script.js"></script>
+<!-- FREE COUNTER -->
+<a href='https://www.free-counters.org/'>Free-Counters.org</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=752673c362334d74c94b9a9c3112e536e33035ad'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1285745/t/0"></script>
 </body>
 
 </html>

@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .collapsible {
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    /* display: none; */
+  }
+
+  .content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+
+    /* a {
+      margin-top: 500px;
+      padding: 10px 0;
+      background-color: yellow;
+    }
+    p {
+      padding: 10px 0;
+      background-color: yellow;
+      border: 2px solid black;
+      border-radius: 0% 0% 15% 15%;
+    } */
+
+    p {
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+  }
+
+  /* .firstHeading {
+    display: flex;
+    justify-content: center;
+  }
+
+  .firstInfo {
+    display: flex;
+    justify-content: center;
+  } */
+
+  nav>ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+
+    li {
+      padding: 15px;
+    }
+  }
+
+
+  .heroSection {
+    background-color: #f0f0f0;
+    color: black;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    .nav_items > ul {
+      list-style: none;
+      display: flex;
+      li{
+        padding: 10px;
+      }
+    }
+  }
+
+  .technologies{
+    
+  }
