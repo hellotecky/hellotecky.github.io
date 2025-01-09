@@ -1,0 +1,3 @@
+https://devdocs.io/, devdocs.io, devdocs is an open source project that provides a single page for all the documentations you need. It supports multiple languages and frameworks.
+
+https://mdn.io/, MDN Web Docs, MDN Web Docs is a comprehensive resource for web developers covering HTML CSS JavaScript and more.
