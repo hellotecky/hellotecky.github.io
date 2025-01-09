@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HelloTecky</title>
   <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
     .collapsible {
       cursor: pointer;
       padding: 10px;
@@ -21,35 +27,80 @@
       border: 1px solid #ccc;
       border-top: none;
       display: none;
+
+      /* a {
+        margin-top: 500px;
+        padding: 10px 0;
+        background-color: yellow;
+      }
+      p {
+        padding: 10px 0;
+        background-color: yellow;
+        border: 2px solid black;
+        border-radius: 0% 0% 15% 15%;
+      } */
     }
 
-    .firstHeading{
+    .firstHeading {
       display: flex;
       justify-content: center;
     }
-    .firstInfo{
+    .firstInfo {
       display: flex;
       justify-content: center;
+    }
+    nav > ul{
+      display: flex;
+      list-style: none;
+      text-decoration: none;
+      justify-content: center;
+      text-align: center;
+      li {
+        padding: 15px;
+      }
+    }
+    
+
+    .heroSection {
+      background-color: #f0f0f0;
+      color: black;
     }
   </style>
+  <!-- EXT STYLESHEET -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
     <h1 class="firstHeading">HelloTecky</h1>
     <p class="firstInfo">An Open Source Project - Welcomes You To Contribute.</p>
-  </header>
-  <hr/>
 
-  <section class="heroSection">
+    <nav>
+      <ul>
+        <li><a href="">Technologies</a></li>
+        <li><a href="https://github.com/hellotecky/hellotecky.github.io">GitHub Repository</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- <section class="heroSection">
     <h2>"Change is the only constant in Software and Technologies"- Explore Technologies, Learn and Implement It.</h2>
 
-  </section>
-  <hr />
+  </section> -->
 
-  <p>[populate the data in ./data/ folder to the respective text files as url, urlName, urlDescription in single line]  <a href="https://github.com/hellotecky/hellotecky.github.io">https://github.com/hellotecky/hellotecky.github.io</a></p>
+  <!-- <p>[populate the data in ./data/ folder to the respective text files as url, urlName, urlDescription in single line]
+    <a href="https://github.com/hellotecky/hellotecky.github.io">https://github.com/hellotecky/hellotecky.github.io</a>
+  </p> -->
   <!-- <h2>initially: MERN Stack Resources Links</h2> -->
   <!-- Placeholder for content -->
+
+  <div class="ship" id="webDevelopment">
+    <!-- <a href="#html-container">HTML</a> -->
+  </div>
+  <div class="ship" id="mobileDevelopment">
+
+  </div>
   <div id="html-container">
     <div class="collapsible">HTML</div>
     <div id="html" class="content"></div>
@@ -87,21 +138,25 @@
     <div class="collapsible">Go</div>
     <div id="go" class="content"></div>
   </div>
-  <div id="codingPlatforms-container">
+  <div id="codingPlatform-container">
     <div class="collapsible">Coding Platforms</div>
-    <div id="codingPlatforms" class="content"></div>
+    <div id="codingPlatform" class="content"></div>
   </div>
   <div id="AITools-container">
     <div class="collapsible">AI Tools</div>
-    <div id="AITools" class="content"></div>
+    <div id="AITool" class="content"></div>
   </div>
-  <div id="techDocumentations-container">
+  <div id="techDocumentation-container">
     <div class="collapsible">Tech Documentation</div>
-    <div id="techDocumentations" class="content"></div>
+    <div id="techDocumentation" class="content"></div>
   </div>
-  <!-- <div id="onlineCodeEditors-container">
-    <div class="collapsible">onlineCodeEditors</div>
-    <div id="onlineCodeEditors" class="content"></div>
+  <div id="jobSearch-container">
+    <div class="collapsible">Job Search</div>
+    <div id="jobSearch" class="content"></div>
+  </div>
+  <!-- <div id="onlineCodeEditor-container">
+    <div class="collapsible">onlineCodeEditor</div>
+    <div id="onlineCodeEditor" class="content"></div>
   </div> -->
 
 
