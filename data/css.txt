@@ -4,4 +4,11 @@ https://www.w3.org/Style/CSS/Overview.en.html, OFFICIAL - CSS - W3C , The offici
 
 https://www.w3schools.com/css/, TUTORIAL - CSS Tutorial - w3schools.com , W3Schools is a popular online resource for learning web development including CSS. Their CSS tutorial covers all the basics of CSS from styling text and images to creating layouts and animations. The tutorial is interactive allowing you to try out code examples and see the results in real-time. W3Schools also provides references for CSS properties selectors and units making it a useful resource for both beginners and experienced developers.
 
+
+- , VS Code Extensions (not link), CSS Peek | Color highlight | Stylelint | Image Preview | HTML CSS Support | HTML to CSS autocompletion | 
+
+- , CHROME Extensions (below links are provided) , Mobile simulator - responsive testing tool - https://chromewebstore.google.com/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk | 
+
+
+
 https://css-tricks.com, CSS Tricks, CSS-Tricks is a website about websites. CSS-Tricks is created written by and maintained by Chris Coyier and a team of swell people. It is built on WordPress hosted by Media Temple and the assets are served by MaxCDN. It is made possible through sponsorships from products and services we like.
