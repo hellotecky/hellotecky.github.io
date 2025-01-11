@@ -1,3 +1,5 @@
 https://picsum.photos/, Picsum Photos, Free high-resolution random photos
 
 https://onlinecompiler.io/, Online Compiler, Online Compiler is a free online compiler API that supports multiple languages.
+
+https://api.github.com/users/, GitHub - Users Api, Find details of github of the user using github user api.
