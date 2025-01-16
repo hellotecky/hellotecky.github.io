@@ -6,6 +6,8 @@ https://www.w3schools.com/html/default.asp, TUTORIAL - HTML Tutorial - w3schools
 
 https://html.com/, HTML.com , HTML.com is a website dedicated to HTML tutorials and resources. They offer a range of tutorials for beginners and experienced developers covering topics like HTML basics, forms, tables, and multimedia. HTML.com also provides references for HTML elements and attributes making it a useful resource for looking up specific information quickly. The website is well-organized and easy to navigate making it a great place to start if you're new to HTML or looking to expand your knowledge.
 
-- , VS Code Extensions , | 
+- , VS Code Extensions , prettier | [Deprecated] Bracket Pair Colorizer 2 (inbuit in vs code) | Auto Rename Tag
 
-- , CHOME Extensions , Pesticide for chorme |
+- , CHOME Extensions , Pesticide for chorme | 
+
+-, vs code - emmit,
