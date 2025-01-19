@@ -1,0 +1,1 @@
+https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode, MongoDB for VS Code Extension, helps you to connect to local mongodb server and atlas(cloud server).
